@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>JavaScript Calculator</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,700,400" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header class="text-center">
+        <h1>JavaScript Calculator</h1>
+    </header>
+    <div class="container calc-container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="calc-display col-xs-12">
+                        <div class="row">
+                            <div id="calc-main-display" class="text-right"></div>
+                        </div>
+                        <div class="row">
+                            <div id="calc-sec-display" class="text-right"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="calc-numpad col-xs-8 text-center">
+                        <div class="row ">
+                            <button class="calc-btn-num col-xs-4 btn btn-link" value="7">7</button>
+                            <button class="calc-btn-num col-xs-4 btn btn-link" value="8">8</button>
+                            <button class="calc-btn-num col-xs-4 btn btn-link" value="9">9</button>
+                        </div>
+                        <div class="row">
+                            <button class="calc-btn-num col-xs-4 btn btn-link" value="4">4</button>
+                            <button class="calc-btn-num col-xs-4 btn btn-link" value="5">5</button>
+                            <button class="calc-btn-num col-xs-4 btn btn-link" value="6">6</button>
+                        </div>
+                        <div class="row">
+                            <button class="calc-btn-num col-xs-4 btn btn-link" value="1">1</button>
+                            <button class="calc-btn-num col-xs-4 btn btn-link" value="2">2</button>
+                            <button class="calc-btn-num col-xs-4 btn btn-link" value="3">3</button>
+                        </div>
+                        <div class="row">
+                            <button class="col-xs-4 btn btn-link" value="=">=</button>
+                            <button class="calc-btn-num col-xs-4 btn btn-link"  value="0">0</button>
+                            <button class="calc-btn-num col-xs-4 btn btn-link"  value=".">.</button>
+                        </div>
+                    </div>
+                    <div class="calc-operations col-xs-3 text-center">
+                        <button class="btn btn-link btn-block" value="del">DEL</button>
+                        <button class="btn btn-link btn-block" value="ac">AC</button>
+                        <button class="btn btn-link btn-block" value="/">&divide;</button>
+                        <button class="btn btn-link btn-block" value="x">x</button>
+                        <button class="btn btn-link btn-block" value="-">-</button>
+                        <button class="btn btn-link btn-block" value="+">+</button>
+                    </div>
+                    <div class="calc-filler col-xs-1 text-center">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <h4>by <a href="https://ph.linkedin.com/in/emiliogozo" tearget="_blank">Emilio Gozo</a></h4>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="main.js"></script>
+</body>
+
+</html>
